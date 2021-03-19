@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+    height: 100vh;
+}
+h3,h2{
+    padding:20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+}
+button{
+    border:none;
+    background-color: black;
+    border-radius: 50%;
+    height:15rem;
+    width: 15rem;
+}
+button:focus{
+    outline: none;
+}
+
+img{
+    height: 10em;
+    cursor:pointer;
+    user-select:none;
+}
+
+.closed{
+    display:none;
+}
+
+.open{
+    display:none;
+}
+
+.active,.show{
+    display:block;
+}
