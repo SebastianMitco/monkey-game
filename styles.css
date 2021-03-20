@@ -13,15 +13,16 @@ body{
 h3,h2{
     padding:20px;
     font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    text-align: center;
 }
-button{
+.btn{
     border:none;
     background-color: black;
     border-radius: 50%;
     height:15rem;
     width: 15rem;
 }
-button:focus{
+.btn:focus{
     outline: none;
 }
 
@@ -41,4 +42,20 @@ img{
 
 .active,.show{
     display:block;
+}
+.reload
+ {
+        margin: 20px;
+        height: 50px;
+        width: 250px;
+        font-size: 20px;
+        font-family: verdana;
+        color: aliceblue;
+        background-color: aquamarine;
+        border: none;
+}
+
+.copy{
+    position:relative;
+    margin-top:150px;
 }
