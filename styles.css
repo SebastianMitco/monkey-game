@@ -53,6 +53,7 @@ img{
         color: aliceblue;
         background-color: aquamarine;
         border: none;
+        cursor: pointer;
 }
 
 .copy{
